@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^karyawan/?$ index.php [NC,L]
+RewriteRule ^karyawan/([0-9]+)/?$ index.php?id=$1 [NC,L]
